@@ -1,11 +1,12 @@
 {
-  "name": "pantheon-quicksilver/quicksilver-template",
-  "description": "A template for creating new Quicksilver scripts installed via Composer.",
-  "homepage": "https://github.com/pantheon-quicksilver/quicksilver-template",
+  "name": "pantheon-quicksilver/debugging-example",
+  "description": "Quick debugging example for users explore the potential of Quicksilver.",
+  "homepage": "https://github.com/pantheon-quicksilver/debugging-example",
   "authors": [],
   "type": "quicksilver-script",
   "require": {
-    "composer/installers": "~1.0"
+    "composer/installers": "^1 || ^2",
+    "pantheon-quicksilver/pantheon-yml-editor": "dev-main"
   },
   "license": "MIT"
 }
