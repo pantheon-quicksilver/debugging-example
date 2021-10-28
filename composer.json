@@ -4,9 +4,20 @@
   "homepage": "https://github.com/pantheon-quicksilver/debugging-example",
   "authors": [],
   "type": "quicksilver-script",
+  "license": "MIT",
   "require": {
     "composer/installers": "^1 || ^2",
     "pantheon-quicksilver/pantheon-yml-editor": "dev-main"
   },
-  "license": "MIT"
+  "extra": {
+    "pantheon-quicksilver": {
+      "debugging-example": [
+        {
+          "wf_type": "clear_cache",
+          "stage": "after",
+          "weight": 1
+        }
+      ]
+    }
+  }
 }
