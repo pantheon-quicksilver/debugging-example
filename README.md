@@ -48,7 +48,7 @@ workflows:
     after:
       - type: webphp
         description: Dump debugging output
-        script: private/scripts/debugging-example.php
+        script: private/scripts/quicksilver/debugging-example/debugging-example.php
 ```
 
 ### Example `terminus workflow:watch` Output ###
